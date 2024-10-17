@@ -1,0 +1,64 @@
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .popup-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    max-width: 100%;
+  }
+  
+  h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .remember {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .remember input {
+    margin-right: 10px;
+  }
+  
+  .submit-btn {
+    background-color: #3498db;
+    color: white;
+    padding: 8px 16px; /* Smaller button */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: flex-end; /* Align to right */
+    margin-top: 10px; /* Add space at the top */
+  }
+  
